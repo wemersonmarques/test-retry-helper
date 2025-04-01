@@ -1,0 +1,30 @@
+{
+  "name": "test-retry-helper",
+  "version": "1.0.0",
+  "description": "A utility to help retry failed tests by commenting out passed tests",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register 'test/**/*.test.ts'",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "testing",
+    "mocha",
+    "typescript",
+    "retry",
+    "test-retry"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11"
+  }
+} 
