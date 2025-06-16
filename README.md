@@ -79,7 +79,7 @@ The `TestRetry` constructor accepts an optional configuration object with the fo
 - `mochaConfig`: Mocha configuration options (default: { timeout: 60000, require: 'ts-node/register' })
 - `retries`: Number of retry attempts (default: 3)
 
-## Example Test File
+## Example Test Filesss
 
 ```typescript
 // example.test.ts
